@@ -17,8 +17,8 @@ const GIFS = [
 
 const NO_BUTTON_TEXTS = [
   "No",
-  "Are you sure?",
-  "Are you really sure??",
+  "Noo!",
+  "NO!",
   "Dude is not a very light skin man pleazzz",
   "No",
   "No",
@@ -33,9 +33,9 @@ const YES_BUTTON_SIZES = [
   "text-xl px-24 py-12",
   "text-xl px-24 py-12",
   "text-2xl px-48 py-24",
-  "text-2xl px-48 py-24",
-  "text-2xl px-48 py-24",
-  "text-2xl px-48 py-24",
+  "text-2xl px-52 py-26",
+  "text-2xl px-56 py-28",
+  "text-2xl px-60 py-30",
 ] as const;
 
 export default function Home() {
@@ -46,14 +46,14 @@ export default function Home() {
   noStep === 3
     ? "Dude is not a white guy pleaszz"
     : noStep === 4
-    ? "Stop እምቢ ካልሽ ለrussian እድረዋለው"
+    ? "እምቢ ካልሽ ለrussian እድረዋለው"
     : noStep === 6
     ? "Divorced, Please give him a chance"
     : noStep === 7
     ? "Ahh, He's married russian again.😭😭"
     : noStep < 5
     ? "Will you be my Valentine?"
-    : "he's married russian.";
+    : "he's married russian. Let's give him a chance.";
 
 
   useEffect(() => {
