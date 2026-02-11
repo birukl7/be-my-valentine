@@ -128,7 +128,7 @@ export default function Home() {
         <p className="text-lg text-gray-700 max-w-[600px] mx-auto">
         There was a time when our chats felt a little dry, and I honestly didn’t like that at all. So I came up with the most random excuse just to talk to you again. I tried approaching you as "a mate,” acting cool, when really I just wanted more moments with you. <br></br>
 
-         I’m so grateful for every small effort I made, every random message, every excuse to say hi. Because somehow, those little things led me here. and you're my valentine, now. I love you. ❤️
+         I’m so grateful for every small effort I made, every random message, every excuse to say hi. Because somehow, those little things led me here. and you're my valentine, now. Send me the screenshot of this page as your acceptance. I love you. ❤️
         </p>
       </div>
     );
