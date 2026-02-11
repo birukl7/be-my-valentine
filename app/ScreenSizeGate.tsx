@@ -11,22 +11,16 @@ export default function ScreenSizeGate({ children }: { children: ReactNode }) {
   const [isBlocked, setIsBlocked] = useState<boolean | null>(null);
 
   useEffect(() => {
-    const query = `(max-width: ${MIN_WIDTH_PX - 1}px)`;
-    const mql = window.matchMedia(query);
+    const handleResize = () => {
+      setIsBlocked(window.innerWidth < MIN_WIDTH_PX);
+    };
 
-    const update = () => setIsBlocked(mql.matches);
-    update();
+    handleResize();
+    window.addEventListener("resize", handleResize);
 
-    // Safari fallback: addListener/removeListener
-    if ("addEventListener" in mql) {
-      mql.addEventListener("change", update);
-      return () => mql.removeEventListener("change", update);
-    }
-
-    // eslint-disable-next-line deprecation/deprecation
-    mql.addListener(update);
-    // eslint-disable-next-line deprecation/deprecation
-    return () => mql.removeListener(update);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   if (isBlocked === null) {
