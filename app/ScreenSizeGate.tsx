@@ -107,7 +107,7 @@ export default function ScreenSizeGate({ children }: { children: ReactNode }) {
             Getting everything ready for you...
           </p>
           <p className="mt-3 text-base text-rose-800/80">
-            Loading {loadedCount} / {TOTAL_ASSETS} surprises ({progress}%)
+            Loading {loadedCount} / {TOTAL_ASSETS} ({progress}%)
           </p>
         </div>
       </div>
