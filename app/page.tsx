@@ -126,7 +126,7 @@ export default function Home() {
         />
 
         <p className="text-lg text-gray-700 max-w-[600px] mx-auto">
-        There was a time when our chats felt a little dry, and I honestly didn’t like that at all. So I came up with the most random excuse just to talk to you again. I tried approaching you as "a mate,” acting cool, when really I just wanted more moments with you. and you're still the first recomemended person in my contact list.  <br></br><br></br>
+        There was a time when our chats felt a little dry, and I honestly didn’t like that at all. So I came up with the most random excuse just to talk to you again. I tried approaching you as "a mate,” acting cool, when really I just wanted more moments with you. and you're still the first recomemended person in my contacts list :D <br></br><br></br>
 
          I’m so grateful for every small effort I made, every random message, every excuse to say hi. Because somehow, those little things led me here. and now...you're my valentine. Send me the screenshot of this page as your acceptance. I love you. ❤️
         </p>
@@ -146,7 +146,7 @@ export default function Home() {
         />
 
         <h1 className="text-center text-2xl font-semibold text-rose-900">
-          place input the mapped number of your phone pattern
+          please input the mapped number of your phone's pattern
         </h1>
 
         <div className="flex flex-col items-center gap-4">
